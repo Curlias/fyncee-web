@@ -32,10 +32,11 @@ export default function Pricing() {
             <div className="relative z-10">
               <div className="text-center mb-8">
                 <div className="inline-block px-4 py-2 bg-primary-cyan/10 rounded-button text-primary-cyan font-bold mb-4">
-                  OFERTA ESPECIAL
+                  OFERTA ESPECIAL - BETA
                 </div>
                 <h2 className="text-h1 font-bold mb-2 text-white">Completamente Gratis</h2>
-                <p className="text-h4 text-white">Para siempre, sin trucos</p>
+                <p className="text-h4 text-white mb-2">Durante la fase Beta</p>
+                <p className="text-body text-white/70">Después: $45 MXN/mes con todas las funciones</p>
               </div>
 
               <div className="space-y-4 mb-8">
@@ -57,7 +58,10 @@ export default function Pricing() {
                 Descargar Ahora
               </a>
 
-              <p className="text-center text-small text-text-tertiary mt-6">
+              <p className="text-center text-small text-white mt-6">
+                🎉 Los usuarios Beta tendrán acceso gratuito de por vida
+              </p>
+              <p className="text-center text-small text-white/70 mt-2">
                 También disponible próximamente en iOS y Web
               </p>
             </div>
