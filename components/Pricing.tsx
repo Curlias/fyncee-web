@@ -34,8 +34,8 @@ export default function Pricing() {
                 <div className="inline-block px-4 py-2 bg-primary-cyan/10 rounded-button text-primary-cyan font-bold mb-4">
                   OFERTA ESPECIAL
                 </div>
-                <h2 className="text-h1 font-bold mb-2">Completamente Gratis</h2>
-                <p className="text-h4 text-text-secondary">Para siempre, sin trucos</p>
+                <h2 className="text-h1 font-bold mb-2 text-white">Completamente Gratis</h2>
+                <p className="text-h4 text-white">Para siempre, sin trucos</p>
               </div>
 
               <div className="space-y-4 mb-8">
@@ -44,7 +44,7 @@ export default function Pricing() {
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-income-green/20 flex items-center justify-center">
                       <Check className="text-income-green" size={16} />
                     </div>
-                    <span className="text-body text-text-secondary">{feature}</span>
+                    <span className="text-body text-white">{feature}</span>
                   </div>
                 ))}
               </div>

@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Github, Mail, Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -101,7 +100,15 @@ export default function Footer() {
               © {currentYear} Fyncee. Todos los derechos reservados.
             </p>
             <p className="flex items-center gap-2 text-body text-text-secondary">
-              Hecho con <Heart className="text-expense-red" size={16} fill="currentColor" /> usando Flutter & Supabase
+              Potenciado con la tecnología de{' '}
+              <a 
+                href="https://veldrion.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-orange-500 font-bold hover:text-orange-400 transition-colors"
+              >
+                Veldrion
+              </a>
             </p>
           </div>
         </div>

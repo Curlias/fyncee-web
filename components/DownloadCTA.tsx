@@ -14,11 +14,11 @@ export default function DownloadCTA() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-h1 sm:text-[52px] font-bold mb-6">
+          <h2 className="text-h1 sm:text-[52px] font-bold mb-6 text-white">
             Comienza a controlar tus finanzas{' '}
             <span className="text-primary-cyan">hoy</span>
           </h2>
-          <p className="text-h3 text-text-secondary mb-12 max-w-2xl mx-auto">
+          <p className="text-h3 text-white mb-12 max-w-2xl mx-auto">
             Descarga gratis y empieza en menos de 2 minutos
           </p>
 

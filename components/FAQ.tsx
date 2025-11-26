@@ -52,10 +52,10 @@ export default function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-h2 sm:text-[42px] font-bold mb-4">
+          <h2 className="text-h2 sm:text-[42px] font-bold mb-4 text-white">
             Preguntas frecuentes
           </h2>
-          <p className="text-h4 text-text-secondary">
+          <p className="text-h4 text-white">
             Todo lo que necesitas saber sobre Fyncee
           </p>
         </motion.div>

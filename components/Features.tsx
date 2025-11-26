@@ -53,10 +53,10 @@ export default function Features() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-h2 sm:text-[42px] font-bold mb-4">
+          <h2 className="text-h2 sm:text-[42px] font-bold mb-4 text-white">
             Características principales
           </h2>
-          <p className="text-h4 text-text-secondary max-w-2xl mx-auto">
+          <p className="text-h4 text-white max-w-2xl mx-auto">
             Todo lo que necesitas para tomar control de tus finanzas personales
           </p>
         </motion.div>
@@ -74,8 +74,8 @@ export default function Features() {
               <div className={`w-14 h-14 rounded-button bg-${feature.color}/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                 <feature.icon className={`text-${feature.color}`} size={28} />
               </div>
-              <h3 className="text-h4 font-bold mb-3">{feature.title}</h3>
-              <p className="text-body text-text-secondary leading-relaxed">
+              <h3 className="text-h4 font-bold mb-3 text-white">{feature.title}</h3>
+              <p className="text-body text-white leading-relaxed">
                 {feature.description}
               </p>
             </motion.div>

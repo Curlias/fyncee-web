@@ -23,10 +23,10 @@ export default function TechStack() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-h2 sm:text-[42px] font-bold mb-4">
+          <h2 className="text-h2 sm:text-[42px] font-bold mb-4 text-white">
             Tecnologías modernas
           </h2>
-          <p className="text-h4 text-text-secondary max-w-2xl mx-auto">
+          <p className="text-h4 text-white max-w-2xl mx-auto">
             Construido con las mejores herramientas del mercado
           </p>
         </motion.div>
@@ -42,8 +42,8 @@ export default function TechStack() {
               className="bg-dark-surface rounded-card p-6 border border-white/5 hover:border-primary-cyan/30 transition-all duration-300"
             >
               <div className="text-5xl mb-4">{tech.logo}</div>
-              <h3 className="text-h4 font-bold mb-2">{tech.name}</h3>
-              <p className="text-body text-text-secondary">{tech.description}</p>
+              <h3 className="text-h4 font-bold mb-2 text-white">{tech.name}</h3>
+              <p className="text-body text-white">{tech.description}</p>
             </motion.div>
           ))}
         </div>

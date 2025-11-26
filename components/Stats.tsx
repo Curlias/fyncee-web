@@ -46,7 +46,7 @@ export default function Stats() {
               <div className="text-h2 font-bold text-primary-cyan mb-2">
                 {stat.value}
               </div>
-              <div className="text-body text-text-secondary">
+              <div className="text-body text-white">
                 {stat.label}
               </div>
             </motion.div>
