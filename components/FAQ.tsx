@@ -74,7 +74,7 @@ export default function FAQ() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full flex items-center justify-between p-6 text-left hover:bg-dark-surface-light transition-colors"
               >
-                <span className="text-h4 font-bold pr-4">{faq.question}</span>
+                <span className="text-h4 font-bold pr-4 text-white">{faq.question}</span>
                 <ChevronDown
                   className={`flex-shrink-0 text-primary-cyan transition-transform duration-300 ${
                     openIndex === index ? 'rotate-180' : ''
@@ -91,7 +91,7 @@ export default function FAQ() {
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <div className="px-6 pb-6 text-body text-text-secondary leading-relaxed">
+                    <div className="px-6 pb-6 text-body text-white leading-relaxed">
                       {faq.answer}
                     </div>
                   </motion.div>

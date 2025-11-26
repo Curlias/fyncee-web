@@ -16,32 +16,32 @@ export default function Footer() {
               <Image src="/logo.png" alt="Fyncee Logo" width={40} height={40} className="rounded-xl" />
               <span className="text-h4 font-bold text-primary-cyan">Fyncee</span>
             </Link>
-            <p className="text-body text-text-secondary mb-4">
+            <p className="text-body text-white mb-4">
               Gestiona tus finanzas con claridad
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h3 className="text-h4 font-bold mb-4">Navegación</h3>
+            <h3 className="text-h4 font-bold mb-4 text-white">Navegación</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <Link href="/" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Inicio
                 </Link>
               </li>
               <li>
-                <Link href="/features" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <Link href="/features" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Características
                 </Link>
               </li>
               <li>
-                <Link href="/download" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <Link href="/download" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Descargar
                 </Link>
               </li>
               <li>
-                <a href="mailto:contact@fyncee.app" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <a href="mailto:contact@fyncee.app" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Contacto
                 </a>
               </li>
@@ -50,10 +50,10 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="text-h4 font-bold mb-4">Recursos</h3>
+            <h3 className="text-h4 font-bold mb-4 text-white">Recursos</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <a href="#" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Documentación
                 </a>
               </li>
@@ -72,10 +72,10 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="text-h4 font-bold mb-4">Legal</h3>
+            <h3 className="text-h4 font-bold mb-4 text-white">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/privacy" className="text-body text-text-secondary hover:text-primary-cyan transition-colors">
+                <Link href="/privacy" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Privacidad
                 </Link>
               </li>
@@ -96,10 +96,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-body text-text-secondary text-center md:text-left">
+            <p className="text-body text-white text-center md:text-left">
               © {currentYear} Fyncee. Todos los derechos reservados.
             </p>
-            <p className="flex items-center gap-2 text-body text-text-secondary">
+            <p className="flex items-center gap-2 text-body text-white">
               Potenciado con la tecnología de{' '}
               <a 
                 href="https://veldrion.com" 
