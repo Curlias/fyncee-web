@@ -20,11 +20,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-h1 sm:text-[56px] lg:text-[64px] font-bold mb-6 leading-tight">
+            <h1 className="text-h1 sm:text-[56px] lg:text-[64px] font-bold mb-6 leading-tight text-white">
               Gestiona tus finanzas con{' '}
               <span className="text-primary-cyan">claridad</span>
             </h1>
-            <p className="text-h4 sm:text-[24px] text-text-secondary mb-8 leading-relaxed">
+            <p className="text-h4 sm:text-[24px] text-white mb-8 leading-relaxed">
               La app de finanzas personales más intuitiva con sincronización en la nube
             </p>
 
@@ -42,7 +42,7 @@ export default function Hero() {
               </button>
             </div>
 
-            <div className="mt-8 flex items-center gap-6 text-small text-text-tertiary">
+            <div className="mt-8 flex items-center gap-6 text-small text-white">
               <div className="flex items-center gap-2">
                 ✓ 100% Gratis
               </div>
@@ -67,7 +67,7 @@ export default function Hero() {
               <div className="aspect-[9/19] bg-gradient-to-br from-dark-surface to-dark-surface-light rounded-[40px] border-4 border-dark-surface-light shadow-2xl flex items-center justify-center">
                 <div className="text-center p-8">
                   <Smartphone size={64} className="mx-auto mb-4 text-primary-cyan" />
-                  <p className="text-text-secondary text-small">
+                  <p className="text-white text-small">
                     Mockup de la app
                     <br />
                     (Agregar screenshot aquí)
