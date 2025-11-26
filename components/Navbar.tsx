@@ -20,14 +20,11 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-text-secondary hover:text-primary-cyan transition-colors">
+            <Link href="/" className="text-white hover:text-primary-cyan transition-colors">
               Inicio
             </Link>
-            <Link href="/features" className="text-text-secondary hover:text-primary-cyan transition-colors">
+            <Link href="/features" className="text-white hover:text-primary-cyan transition-colors">
               Características
-            </Link>
-            <Link href="/download" className="text-text-secondary hover:text-primary-cyan transition-colors">
-              Descargar
             </Link>
             <a
               href="/fyncee.apk"
@@ -53,24 +50,17 @@ export default function Navbar() {
           <div className="px-4 py-4 space-y-3">
             <Link
               href="/"
-              className="block text-text-secondary hover:text-primary-cyan transition-colors py-2"
+              className="block text-white hover:text-primary-cyan transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Inicio
             </Link>
             <Link
               href="/features"
-              className="block text-text-secondary hover:text-primary-cyan transition-colors py-2"
+              className="block text-white hover:text-primary-cyan transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Características
-            </Link>
-            <Link
-              href="/download"
-              className="block text-text-secondary hover:text-primary-cyan transition-colors py-2"
-              onClick={() => setIsOpen(false)}
-            >
-              Descargar
             </Link>
             <a
               href="/fyncee.apk"
