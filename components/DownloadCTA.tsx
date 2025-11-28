@@ -2,8 +2,23 @@
 
 import { motion } from 'framer-motion';
 import { Smartphone, Download } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function DownloadCTA() {
+  const [downloadUrl, setDownloadUrl] = useState<string>('/fyncee.apk');
+
+  useEffect(() => {
+    fetch('/api/download')
+      .then(res => res.json())
+      .then(data => {
+        if (data.url) setDownloadUrl(data.url);
+      })
+      .catch(() => {
+        // Si falla, usa la URL por defecto
+        console.log('Usando URL de descarga por defecto');
+      });
+  }, []);
+
   return (
     <section className="py-24 bg-gradient-to-br from-dark-surface via-dark-bg to-dark-surface">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,7 +39,8 @@ export default function DownloadCTA() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <a
-              href="/fyncee.apk"
+              href={downloadUrl}
+              download
               className="group relative inline-flex items-center justify-center bg-primary-cyan text-dark-bg px-10 py-6 rounded-card font-bold text-h4 hover:brightness-110 hover:scale-105 transition-all duration-300 shadow-xl"
             >
               <div className="absolute -inset-1 bg-primary-cyan rounded-card blur opacity-30 group-hover:opacity-50 transition-opacity"></div>
