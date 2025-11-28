@@ -1,9 +1,0 @@
-<svg width="1080" height="2400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1080" height="2400" fill="#1C1F3A"/>
-  <text x="540" y="1200" font-family="Arial" font-size="48" fill="#00D9FF" text-anchor="middle">
-    Fyncee Screenshot
-  </text>
-  <text x="540" y="1280" font-family="Arial" font-size="32" fill="#B0B3C1" text-anchor="middle">
-    Placeholder - Reemplazar con imagen real
-  </text>
-</svg>

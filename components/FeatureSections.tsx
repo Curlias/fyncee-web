@@ -42,28 +42,16 @@ const featureSections = [
     reverse: false,
   },
   {
-    title: 'Tus datos, siempre seguros',
-    description: 'Sincronización automática con Supabase. Accede desde cualquier dispositivo sin perder información',
-    image: '/screenshots/cloud-sync.png',
+    title: 'Vista general de tus finanzas',
+    description: 'Pantalla principal con balance actual, ingresos, egresos y transacciones recientes',
+    image: '/screenshots/hero-mockup.png',
     benefits: [
-      'Backup automático en la nube',
-      'Funciona offline',
-      'Sincronización en < 2 segundos',
-      'PostgreSQL enterprise-grade',
+      'Balance actualizado en tiempo real',
+      'Historial de transacciones',
+      'Selector de períodos',
+      'Gráficas de tendencias',
     ],
     reverse: true,
-  },
-  {
-    title: 'Protección de nivel bancario',
-    description: 'Autenticación biométrica, código PIN y Row-Level Security en base de datos',
-    image: '/screenshots/security.png',
-    benefits: [
-      'Huella digital o Face ID',
-      'Código PIN personalizado',
-      'Autenticación con Google',
-      'Encriptación end-to-end',
-    ],
-    reverse: false,
   },
 ];
 

@@ -7,46 +7,28 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const screenshots = [
   {
-    src: '/screenshots/home.png',
+    src: '/screenshots/hero-mockup.png',
     alt: 'Pantalla Principal',
     title: 'Balance y Transacciones',
     description: 'Vista general de tus finanzas con transacciones recientes'
   },
   {
-    src: '/screenshots/add-transaction.png',
+    src: '/screenshots/transaction-detail.png',
     alt: 'Agregar Transacción',
     title: 'Registro Rápido',
     description: 'Añade gastos e ingresos en segundos'
   },
   {
-    src: '/screenshots/stats.png',
+    src: '/screenshots/analytics.png',
     alt: 'Estadísticas',
     title: 'Gráficas Visuales',
     description: 'Visualiza tus patrones de gasto con gráficas interactivas'
   },
   {
-    src: '/screenshots/budgets.png',
+    src: '/screenshots/budget-detail.png',
     alt: 'Presupuestos',
     title: 'Control de Límites',
     description: 'Presupuestos mensuales con alertas inteligentes'
-  },
-  {
-    src: '/screenshots/settings.png',
-    alt: 'Configuración',
-    title: 'Personalización',
-    description: 'Ajusta la app a tus preferencias'
-  },
-  {
-    src: '/screenshots/profile.png',
-    alt: 'Perfil',
-    title: 'Tu Cuenta',
-    description: 'Gestiona tu información y sincronización'
-  },
-  {
-    src: '/screenshots/categories.png',
-    alt: 'Categorías',
-    title: 'Categorías Personalizadas',
-    description: 'Crea y organiza tus propias categorías'
   },
 ];
 
