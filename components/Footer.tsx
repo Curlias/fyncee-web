@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="text-h4 font-bold text-primary-cyan">Fyncee</span>
             </Link>
             <p className="text-body text-white mb-4">
-              Gestiona tus finanzas con claridad
+              Potencia tus finanzas
             </p>
           </div>
 

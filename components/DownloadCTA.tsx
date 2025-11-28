@@ -30,8 +30,8 @@ export default function DownloadCTA() {
           className="text-center"
         >
           <h2 className="text-h1 sm:text-[52px] font-bold mb-6 text-white">
-            Comienza a controlar tus finanzas{' '}
-            <span className="text-primary-cyan">hoy</span>
+            <span className="text-primary-cyan">Potencia</span> tus finanzas{' '}
+            hoy
           </h2>
           <p className="text-h3 text-white mb-12 max-w-2xl mx-auto">
             Descarga gratis y empieza en menos de 2 minutos

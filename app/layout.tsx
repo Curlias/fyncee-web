@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fyncee - Gestiona tus finanzas con claridad",
+  title: "Fyncee - Potencia tus finanzas",
   description: "App de finanzas personales con sincronización en la nube. Registra gastos, crea presupuestos y visualiza estadísticas. 100% gratis.",
   keywords: ["finanzas personales", "app gastos", "presupuesto", "control financiero", "ahorro"],
   openGraph: {
-    title: "Fyncee - Gestiona tus finanzas con claridad",
-    description: "La app de finanzas personales más intuitiva",
+    title: "Fyncee - Potencia tus finanzas",
+    description: "La app de finanzas personales más intuitiva con sincronización en la nube",
     type: "website",
     images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fyncee - Gestiona tus finanzas con claridad",
-    description: "La app de finanzas personales más intuitiva",
+    title: "Fyncee - Potencia tus finanzas",
+    description: "La app de finanzas personales más intuitiva con sincronización en la nube",
     images: ["/twitter-image.png"],
   },
 };

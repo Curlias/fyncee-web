@@ -22,8 +22,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-h1 sm:text-[56px] lg:text-[64px] font-bold mb-6 leading-tight text-white">
-              Gestiona tus finanzas con{' '}
-              <span className="text-primary-cyan">claridad</span>
+              <span className="text-primary-cyan">Potencia</span> tus finanzas
             </h1>
             <p className="text-h4 sm:text-[24px] text-white mb-8 leading-relaxed">
               La app de finanzas personales más intuitiva con sincronización en la nube

@@ -1,0 +1,7 @@
+# Ignorar screenshots hasta que estén las imágenes reales
+*.png
+*.jpg
+*.jpeg
+
+# Mantener solo el placeholder SVG y el README
+!.gitkeep
