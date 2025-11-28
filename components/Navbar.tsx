@@ -1,24 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [downloadUrl, setDownloadUrl] = useState<string>('/fyncee.apk');
-
-  useEffect(() => {
-    fetch('/api/download')
-      .then(res => res.json())
-      .then(data => {
-        if (data.url) setDownloadUrl(data.url);
-      })
-      .catch(() => {
-        console.log('Usando URL de descarga por defecto');
-      });
-  }, []);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-lg border-b border-white/10">
@@ -39,8 +27,7 @@ export default function Navbar() {
               Características
             </Link>
             <a
-              href={downloadUrl}
-              download
+              href="/download"
               className="bg-primary-cyan text-dark-bg px-6 py-2.5 rounded-button font-bold text-body hover:brightness-110 hover:scale-105 transition-all duration-300"
             >
               Descargar APK
@@ -76,8 +63,7 @@ export default function Navbar() {
               Características
             </Link>
             <a
-              href={downloadUrl}
-              download
+              href="/download"
               className="block text-center bg-primary-cyan text-dark-bg px-6 py-3 rounded-button font-bold hover:brightness-110 transition-all"
             >
               Descargar APK

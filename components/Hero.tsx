@@ -30,7 +30,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="/fyncee.apk"
+                href="/download"
                 className="inline-flex items-center justify-center bg-primary-cyan text-dark-bg px-8 py-4 rounded-button font-bold text-body hover:brightness-110 hover:scale-105 transition-all duration-300"
               >
                 <Smartphone className="mr-2" size={20} />

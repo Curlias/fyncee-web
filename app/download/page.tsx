@@ -59,11 +59,11 @@ export default function DownloadPage() {
             </div>
 
             <a
-              href="/fyncee.apk"
+              href="https://github.com/Curlias/fyncee-web/releases/latest/download/fyncee.apk"
               className="w-full inline-flex items-center justify-center bg-primary-cyan text-dark-bg px-8 py-6 rounded-button font-bold text-h3 hover:brightness-110 hover:scale-105 transition-all duration-300 shadow-xl"
             >
               <Download className="mr-3" size={28} />
-              Descargar APK (56 MB)
+              Descargar APK
             </a>
           </div>
 
