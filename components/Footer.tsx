@@ -41,9 +41,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:contact@fyncee.app" className="text-body text-white hover:text-primary-cyan transition-colors">
+                <Link href="/contact" className="text-body text-white hover:text-primary-cyan transition-colors">
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
