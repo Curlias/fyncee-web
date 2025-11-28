@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import ScreenshotsCarousel from '@/components/ScreenshotsCarousel';
-import FeatureSections from '@/components/FeatureSections';
 import Stats from '@/components/Stats';
 import TechStack from '@/components/TechStack';
 import Pricing from '@/components/Pricing';
@@ -17,7 +16,6 @@ export default function Home() {
       <Hero />
       <Features />
       <ScreenshotsCarousel />
-      <FeatureSections />
       <Stats />
       <TechStack />
       <Pricing />
