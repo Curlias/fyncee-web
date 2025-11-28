@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Smartphone, Play } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -63,16 +64,15 @@ export default function Hero() {
             className="relative"
           >
             <div className="relative mx-auto w-full max-w-sm">
-              {/* Phone mockup placeholder - replace with actual screenshot */}
-              <div className="aspect-[9/19] bg-gradient-to-br from-dark-surface to-dark-surface-light rounded-[40px] border-4 border-dark-surface-light shadow-2xl flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Smartphone size={64} className="mx-auto mb-4 text-primary-cyan" />
-                  <p className="text-white text-small">
-                    Mockup de la app
-                    <br />
-                    (Agregar screenshot aquí)
-                  </p>
-                </div>
+              {/* Phone mockup with screenshot */}
+              <div className="aspect-[9/19] bg-gradient-to-br from-dark-surface to-dark-surface-light rounded-[40px] border-8 border-gray-800 shadow-2xl overflow-hidden relative">
+                <Image
+                  src="/screenshots/hero-mockup.png"
+                  alt="Fyncee App Screenshot"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
               
               {/* Glow effect */}
