@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FeatureSections from '@/components/FeatureSections';
-import ScreenshotsCarousel from '@/components/ScreenshotsCarousel';
 
 export default function FeaturesPage() {
   return (
@@ -21,7 +20,6 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      <ScreenshotsCarousel />
       <FeatureSections />
 
       <Footer />

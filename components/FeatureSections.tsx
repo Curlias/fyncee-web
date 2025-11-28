@@ -108,13 +108,13 @@ export default function FeatureSections() {
 
               {/* Image */}
               <div className={section.reverse ? 'lg:col-start-1 lg:row-start-1' : ''}>
-                <div className="relative aspect-[9/19] max-w-sm mx-auto">
+                <div className="relative aspect-[9/16] max-w-xs mx-auto">
                   <div className="relative w-full h-full bg-gradient-to-br from-dark-bg to-dark-surface rounded-[40px] border-8 border-gray-800 shadow-2xl overflow-hidden">
                     <Image
                       src={section.image}
                       alt={section.title}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </div>
                   {/* Glow effect */}
