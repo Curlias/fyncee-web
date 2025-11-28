@@ -35,7 +35,7 @@ export default function UploadPage() {
         <input
           type="file"
           accept=".apk"
-          onChange={(e) => setFile(e.files?.[0] || null)}
+          onChange={(e) => setFile(e.target.files?.[0] || null)}
           className="mb-4 text-white w-full"
         />
         
