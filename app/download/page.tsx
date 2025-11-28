@@ -87,7 +87,7 @@ export default function DownloadPage() {
                   2
                 </span>
                 <div>
-                  <p className="text-body font-bold mb-1">Permite instalación de origen desconocido</p>
+                  <p className="text-body font-bold mb-1 text-white">Permite instalación de origen desconocido</p>
                   <p className="text-small text-white">
                     En Ajustes → Seguridad, activa "Fuentes desconocidas"
                   </p>
@@ -98,7 +98,7 @@ export default function DownloadPage() {
                   3
                 </span>
                 <div>
-                  <p className="text-body font-bold mb-1">Abre el archivo APK</p>
+                  <p className="text-body font-bold mb-1 text-white">Abre el archivo APK</p>
                   <p className="text-small text-white">
                     Desde tu gestor de descargas o archivos
                   </p>
@@ -109,7 +109,7 @@ export default function DownloadPage() {
                   4
                 </span>
                 <div>
-                  <p className="text-body font-bold mb-1">Instala la app</p>
+                  <p className="text-body font-bold mb-1 text-white">Instala la app</p>
                   <p className="text-small text-white">
                     Sigue las instrucciones en pantalla
                   </p>
@@ -120,7 +120,7 @@ export default function DownloadPage() {
                   5
                 </span>
                 <div>
-                  <p className="text-body font-bold mb-1">¡Listo para usar!</p>
+                  <p className="text-body font-bold mb-1 text-white">¡Listo para usar!</p>
                   <p className="text-small text-white">
                     Abre Fyncee y crea tu cuenta
                   </p>
